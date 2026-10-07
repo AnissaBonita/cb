@@ -1,0 +1,94 @@
+
+        body {
+            font-family: 'Manrope', sans-serif;
+            background-color: #0e0e0f;
+            color: #ffffff;
+            -webkit-font-smoothing: antialiased;
+        }
+        .font-headline { font-family: 'Space Grotesk', sans-serif; }
+        .glass {
+            background: rgba(38, 38, 39, 0.6);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        .glow-primary {
+            box-shadow: 0 0 20px rgba(163, 166, 255, 0.2);
+        }
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 4px; }
+        ::-webkit-scrollbar-track { background: #0e0e0f; }
+        ::-webkit-scrollbar-thumb { background: #262627; border-radius: 10px; }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "tertiary-container": "#ff8ed2",
+                      "on-primary-fixed": "#000000",
+                      "on-primary-container": "#0a0081",
+                      "secondary": "#c180ff",
+                      "on-secondary": "#33005b",
+                      "secondary-fixed": "#e5c6ff",
+                      "surface-variant": "#262627",
+                      "primary-dim": "#6063ee",
+                      "surface-bright": "#2c2c2d",
+                      "secondary-fixed-dim": "#dbb4ff",
+                      "error-dim": "#d73357",
+                      "surface-container-low": "#131314",
+                      "on-tertiary-fixed": "#3b002b",
+                      "outline-variant": "#484849",
+                      "outline": "#767576",
+                      "primary-fixed-dim": "#8387ff",
+                      "on-primary": "#0f00a4",
+                      "surface-container-high": "#201f21",
+                      "surface-dim": "#0e0e0f",
+                      "surface-container-lowest": "#000000",
+                      "surface-container-highest": "#262627",
+                      "on-surface": "#ffffff",
+                      "primary-fixed": "#9396ff",
+                      "on-secondary-fixed": "#4f0089",
+                      "background": "#0e0e0f",
+                      "primary": "#a3a6ff",
+                      "on-error": "#490013",
+                      "on-error-container": "#ffb2b9",
+                      "primary-container": "#9396ff",
+                      "tertiary": "#ffa5d9",
+                      "inverse-primary": "#494bd7",
+                      "surface-tint": "#a3a6ff",
+                      "tertiary-fixed": "#ff8ed2",
+                      "surface-container": "#1a191b",
+                      "on-surface-variant": "#adaaab",
+                      "on-secondary-fixed-variant": "#7511c3",
+                      "inverse-surface": "#fcf8f9",
+                      "tertiary-dim": "#ef81c4",
+                      "tertiary-fixed-dim": "#ef81c4",
+                      "surface": "#0e0e0f",
+                      "error": "#ff6e84",
+                      "secondary-dim": "#9c48ea",
+                      "on-tertiary-container": "#63054a",
+                      "on-tertiary": "#701455",
+                      "inverse-on-surface": "#565556",
+                      "secondary-container": "#6f00be",
+                      "on-secondary-container": "#e9cdff",
+                      "on-primary-fixed-variant": "#0e009d",
+                      "error-container": "#a70138",
+                      "on-tertiary-fixed-variant": "#6e1354",
+                      "on-background": "#ffffff"
+              },
+              "borderRadius": {
+                      "DEFAULT": "1rem",
+                      "lg": "2rem",
+                      "xl": "3rem",
+                      "full": "9999px"
+              },
+              "fontFamily": {
+                      "headline": ["Space Grotesk"],
+                      "body": ["Manrope"],
+                      "label": ["Manrope"]
+              }
+        
+ 

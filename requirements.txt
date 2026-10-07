@@ -1,0 +1,22 @@
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+gradio
+
+basicsr @ git+https://github.com/avan06/BasicSR
+facexlib @ git+https://github.com/avan06/facexlib
+gfpgan @ git+https://github.com/avan06/GFPGAN
+
+numpy
+opencv-python
+
+torch
+torchvision
+
+scipy
+tqdm
+lmdb
+pyyaml
+yapf
+
+image_gen_aux @ git+https://github.com/huggingface/image_gen_aux
+gdown # supports downloading the large file from Google Drive
